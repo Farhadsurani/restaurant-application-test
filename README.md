@@ -33,11 +33,12 @@ To start the server, run:
 
 `npm start`
 
-The server will be running at [http://localhost:4000](http://localhost:4000).
+The server will be running at [http://localhost:{port}](http://localhost:port).
+Note: port is 4000 by default. You can see the port number in the terminal where the server is running.
 
 ### GraphQL Playground
 
-Navigate to [http://localhost:4000/graphql](http://localhost:4000/graphql) in your browser to access the GraphQL Playground, where you can interact with the API.
+Navigate to [http://localhost:port/graphql](http://localhost:port/graphql) in your browser to access the GraphQL Playground, where you can interact with the API.
 
 ## GraphQL Schema
 
